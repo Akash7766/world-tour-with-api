@@ -4,7 +4,7 @@ const Country = ({ country }) => {
   const { name, capital, population, flags } = country;
 
   return (
-    <div className="card card-compact bg-base-100 shadow-md flex flex-col justify-between">
+    <div className="card card-compact bg-base-100 hover:bg-base-300 transition-all shadow-md flex flex-col justify-between">
       <div className="p-3">
         <img className="w-full rounded-sm" src={flags.png} alt="Shoes" />
       </div>
